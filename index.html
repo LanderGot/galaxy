@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Новостной портал</title>
+        <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" href="./css/header.css">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <link rel="stylesheet" type="text/css" href="./css/aside.css">
+        <link rel="stylesheet" type="text/css" href="./css/footer.css">
+        <link rel="stylesheet" type="text/css" href="./css/media.css">
+    </head>
+    <body>
+        <header class="header">
+                <div class="header-news">
+                    <div class="container header-news_flex">
+                        <h1 class="heading">Самые 
+                            <a href="#" class="heading-link">свежие новости</a> в реальном времени
+                        </h1>
+                        <time datetime="2020-05-02" class="header-news-time">12:30 19.06.2019</time>
+                    </div>
+                </div>
+                <div class="header-logo">
+                    <div class="container header-logo_flex">
+                        <div class="hamburger_button">
+                            <img src="./img/bur.png" onclick="this.classList.toggle('active')">
+                            <!--<svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="50" onclick="this.classList.toggle('active')">
+                            <path
+                                class="line top"
+                                d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                            <path
+                                class="line middle"
+                                d="m 30,50 h 40" />
+                                <path
+                                class="line bottom"
+                                d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                            </svg>-->
+                        </div>
+                        <div class="block_logo-img">
+                             <img src="./img/logo3.png" alt="Новостное агенство" class="header-logo-img">
+                            <span class="news_logo-img">Новостное агенство</span>
+                        </div>
+                        <label class="list">
+                            <select class="list-select">
+                                <option>Москва</option>
+                                <option>Киров</option>
+                            </select>
+                        </label>
+                        <div class="conteiner_blok">
+                            <time datetime="2020-05-02" class="header-logo-time">
+                            <span class="header-logo-date">
+                                19 июня, Вт
+                            </span> 
+                            <span class="header-logo-time_span">
+                                10:48
+                            </span> 
+                            </time>
+                            <div class="temp">
+                            <span class="temp_span">
+                                +22 ℃
+                            </span>
+                            </div>
+                        </div>
+                        <form class="header-logo-form">
+                            <input type="search" name="search" placeholder="Поиск по сайту" class="header-logo-form_input">
+                            <button type="submit" aria-label="поиск" class="header-logo-form_button"></button>
+                        </form>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <div class="container ">
+                        <ul class="nav-blok nav_flex">
+                            <li class="nav-blok-list"><a href="#" class="nav-blok-list_link">Главная</a></li>
+                            <li class="nav-blok-list"><a href="#" class="nav-blok-list_link">Политика</a></li>
+                            <li class="nav-blok-list"><a href="#" class="nav-blok-list_link">Общество</a></li>
+                            <li class="nav-blok-list"><a href="#" class="nav-blok-list_link">Экономика</a></li>
+                            <li class="nav-blok-list"><a href="#" class="nav-blok-list_link">В мире</a></li>
+                            <li class="nav-blok-list"><a href="#" class="nav-blok-list_link">Происшествия</a></li>
+                            <li class="nav-blok-list"><a href="#" class="nav-blok-list_link">Спорт</a></li>
+                            <li class="nav-blok-list"><a href="#" class="nav-blok-list_link">Наука</a></li>
+                            <li class="nav-blok-list"><a href="#" class="nav-blok-list_link">Туризм</a></li>
+                        </ul>
+                    </div>
+                </nav>
+        </header>
+        <main class="main">
+            <div class="container main_flex">
+                <div class="section-left_block">
+                    <section class="section-left">
+                    <h2 class="section-left-heading">Новости дня</h2>
+                    <ul class="section-left-news">
+                        <li class="section-left-news_list">
+                            <article>
+                                <h3 class="section-left-headings">
+                                <a href="#" class="section-left-headings_link">Кот Ахилл предсказал<br> победу российской сборной<br> над Египтом на ЧМ-2018</a>
+                                </h3>
+                                
+                                <a href="#" class="section-left-link">ЧМ по футболу</a>
+                                
+                                <time datetime="2020-05-02" class="section-left-time">
+                                    <span>
+                                        10:48
+                                    </span>
+                                </time>
+                                
+                                <span class="section-left-comment">15</span>
+                            </article>
+                        </li>
+                        <li class="section-left-news_list">
+                            <article>
+                                <h3 class="section-left-headings">
+                                <a href="#" class="section-left-headings_link">&laquo;Нафтогаз:&raquo; суд разрешил заморозить активы &laquo;Газпрома&raquo;<br> в Великобритании</a>
+                                </h3>
+                                
+                                <a href="#" class="section-left-link">Политика</a>
+                                <time datetime="2020-05-02" class="section-left-time">
+                                    <span>10:48</span>
+                                </time>
+                                
+                                <span class="section-left-comment">15</span>
+                            </article>
+                        </li>
+                        <li class="section-left-news_list">
+                            <article>
+                                <h3 class="section-left-headings">
+                                <a href="#" class="section-left-headings_link">Минтранс предписал<br> оборудовать общественный транспорт кондиционерами</a>
+                                </h3>
+                                
+                                <a href="#" class="section-left-link">Транспорт</a>
+                                <time datetime="2020-05-02">
+                                    <span class="section-left-time">10:48</span>
+                                </time>
+                                
+                                <span class="section-left-comment">15</span>
+                            </article>
+                        </li>
+                        <li class="section-left-news_list">
+                            <article>
+                                <h3 class="section-left-headings">
+                                <a href="#" class="section-left-headings_link">Летние кафе Москвы<br> временно закроются из-за непогоды</a>
+                                </h3>
+                                
+                                <a href="#" class="section-left-link">Погода</a>
+                                <time datetime="2020-05-02">
+                                    <span class="section-left-time">10:48</span>
+                                </time>
+                                
+                                <span class="section-left-comment">15 </span>
+                            </article>
+                        </li>
+                        <li class="section-left-news_list">
+                            <article>
+                                <h3 class="section-left-headings">
+                                <a href="#" class="section-left-headings_link">Комплексное благоустройство Щелковского шоссе завершится<br> в июне</a>
+                                </h3>
+                                
+                                <a href="#" class="section-left-link">Транспорт</a>
+                                <time datetime="2020-05-02">
+                                    <span class="section-left-time">10:48</span>
+                                </time>
+                                
+                                <span class="section-left-comment">15</span>
+                            </article>
+                        </li>
+                        <li class="section-left-news_list">
+                            <article>
+                                <h3 class="section-left-headings">
+                                <a href="#" class="section-left-headings_link">В Москве назвали самое популярное мороженое<br> у болельщиков ЧМ-2018</a>
+                                </h3>
+                                
+                                <a href="#" class="section-left-link">ЧМ по футболу</a>
+                                <time datetime="2020-05-02">
+                                    <span class="section-left-time">10:48</span>
+                                </time>
+                                
+                                <span class="section-left-comment">15</span>
+                            </article>
+                        </li>
+                    </ul>
+                    <div class="course">
+                    </div>
+                    <div class="link-all_news">
+                        <a href="#" class="section-left-all_news">Все новости</a>
+                    </div>
+                </section>
+                </div>
+                
+                <section class="section-central">
+                    <h2 class="visually-hidden">Новости недели</h2>
+                    <div class="section-central_block">
+                            <article class="section-central-article">
+                                <img src="./img/news-blok1.png" alt="Полуостров крым" class="section-central-img_blok">
+                                <a href="#" class="section-central-link_blok">/ Политика</a>
+                                <h3 class="section-central-headings_blok">
+                                    <a href="#" class="section-central-headings_link_blok">В Крыму отреагировали<br> на слова Кравчука<br> о возврате полуострова</a>
+                                </h3>
+                                
+                                <time datetime="2020-05-02" class="datetime_blok">
+                                    <span class="section-central-date_blok">19 Июня 2018</span>
+                                    <span class="section-central-time_blok">10:48</span>
+                                </time>
+                            </article>
+                    </div>
+                    <ul class="section-central-blok section-central_flex">
+                        
+                        <li class="section-central-list">
+                            <article>
+                                <img src="./img/reforma.png" alt="Акция против пенсионной реформы" class="section-central-img">
+                                <h3 class="section-central-headings">
+                                <a href="#" class="section-central-headings_link">Алесей Навальный объявил акцию против пенсионной реформы 1 июля
+                                    </a>
+                                </h3>
+                                
+                                <a href="#" class="section-central-link">Политика</a>
+                                <time datetime="2020-05-02">
+                                    <span class="section-central-time">10:48</span>
+                                </time>
+                                
+                                <span class="section-central-comments">15</span>
+                                
+                            </article>
+                        </li>
+                        <li class="section-central-list">
+                            <article>
+                                <img src="./img/passport.png" alt="Пасспорт">
+                                <h3 class="section-central-headings">
+                                <a href="#" class="section-central-headings_link">Дума увеличила пошлины<br> за выдачу загранпаспортов<br> и водительских прав</a>
+                                </h3>
+                                
+                                <a href="#" class="section-central-link">Общество</a>
+                                <time datetime="2020-05-02">
+                                    <span class="section-central-time">12:33</span>
+                                </time>
+                                
+                                <span class="section-central-comments">36</span>
+                                
+                            </article>
+                        </li>
+                        <li class="section-central-list">
+                            <article>
+                                <img src="./img/youtybe.png" alt="Сервис YouTube">
+                                <h3 class="section-central-headings">
+                                <a href="#" class="section-central-headings_link">В России заработал стриминговый сервис<br> YouTube</a>
+                                </h3>
+                                
+                                <a href="#" class="section-central-link">Интернет</a>
+                                <time datetime="2020-05-02">
+                                    <span class="section-central-time">11:17</span>
+                                </time>
+                                
+                                <span class="section-central-comments">10</span>
+                                
+                            </article>
+                        </li>
+                        <li class="section-central-list">
+                            <article>
+                                <img src="./img/footbol.png" alt="Игрок Кейн">
+                                <h3 class="section-central-headings">
+                                <a href="#" class="section-central-headings_link">Кейн признан лучшим<br> игроком матча ЧМ-2018 <br>Тунис - Англия</a>
+                                </h3>
+                                
+                                <a href="#" class="section-central-link">Политика</a>
+                                <time datetime="2020-05-02">
+                                    <span class="section-central-time">11:39</span>
+                                </time>
+                                
+                                <span class="section-central-comments">25</span>
+                                
+                            </article>
+                        </li>
+                    </ul>
+                </section>
+                <aside class="section-advert">
+                    <a href="#">
+                        <img src="./img/banner-1.png" alt="Реклама Lexus">
+                    </a>
+                    <a href="#">
+                        <img src="./img/banner-2.png" alt="Реклама">
+                    </a>
+                </aside>
+                <section class="section-bottom">
+                    <div class="section-bottom-div">
+                        <div class="section-bottom_left">
+                            <article class="section-bottom-article">
+                                <img src="./img/bottom.png" alt="Автомобиль с грузом в Китае" class="bottom-article-img_blok">
+                                <a href="#" class="bottom-article-link_blok">/ Политика</a>
+                                <h3 class="bottom-article-headings_link">
+                                    <a href="#" class="bottom-article-headings_link_blok">Пекин обвинил Вашингтон<br> в развязывании торговой<br> войны</a>
+                                </h3>
+                                <time datetime="2020-05-02" class="bottom-article-datetime">
+                                    <span class="bottom-article-date">19 Июня 2018</span>
+                                    <span class="bottom-article-time">10:48</span>
+                                </time>
+                                <p class="bottom-article-text"><a  href="#" class="bottom-article-text_link">Министерство коммерции Китая заявило, что Пекин примет «качественные»<br> и «количественные» меры, если президент США Дональд Трамп введет<br> дополнительные пошлины на китайские товары</a></p>
+                            </article>
+                        </div>
+                        <div class="section-bottom_right">
+                            <h2 class="section-bottom-heading">Самые читаемые новости</h2>
+                            <ul class="section-bottom-blok">
+                                <li class="section-bottom-list">
+                                    <article>
+                                        <h3 class="section-bottom-headings">
+                                        <a href="#" class="section-bottom-headings_link">В Турции пообещали найти альтернативу из-за<br> отказа США поставить F-35</a>
+                                        </h3>
+                                        <a href="#" class="section-bottom-link">/ Политика</a>
+                                        <time datetime="2020-05-02" class="section-bottom-datetime">
+                                            <span class="section-bottom-time">11:39</span>
+                                        </time>
+                                        <span class="section-bottom-comments">25</span>
+                                    </article>
+                                </li>
+                                <li class="section-bottom-list">
+                                    <article>
+                                        <h3 class="section-bottom-headings">
+                                        <a href="#" class="section-bottom-headings_link">Назван минимальный доход для причисления<br> к среднему классу</a>
+                                        </h3>
+                                        <a href="#" class="section-bottom-link">/ Политика</a>
+                                        <time datetime="2020-05-02">
+                                            <span class="section-bottom-time">11:39</span>
+                                        </time>
+                                        <span class="section-bottom-comments">25</span>
+                                    </article>
+                                </li>
+                                <li class="section-bottom-list">
+                                    <article>
+                                        <h3 class="section-bottom-headings">
+                                        <a href="#" class="section-bottom-headings_link">Назван минимальный доход для причисления<br> к среднему классу</a>
+                                        </h3>
+                                        <a href="#" class="section-bottom-link">/ Политика</a>
+                                        <time datetime="2020-05-02">
+                                            <span class="section-bottom-time">11:39</span>
+                                        </time>
+                                        <span class="section-bottom-comments">25</span>
+                                    </article>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <div class="clearfix"></div>
+        <footer class="footer">
+            <div class="container footer_container footer_flex">
+                <div class="footer_nav-container">
+                    <ul class="footer_nav">
+                        <li class="footer_nav-blok"><a href="#" class="footer_nav-link">Главная</a></li>
+                        <li class="footer_nav-blok"><a href="#" class="footer_nav-link">Политика</a></li>
+                        <li class="footer_nav-blok"><a href="#" class="footer_nav-link">Общество</a></li>
+                        <li class="footer_nav-blok"><a href="#" class="footer_nav-link">Экономика</a></li>
+                        <li class="footer_nav-blok"><a href="#" class="footer_nav-link">В мире</a></li>
+                        <li class="footer_nav-blok"><a href="#" class="footer_nav-link">Путешествия</a></li>
+                        <li class="footer_nav-blok"><a href="#" class="footer_nav-link">Спорт</a></li>
+                        <li class="footer_nav-blok"><a href="#" class="footer_nav-link">Наука</a></li>
+                        <li class="footer_nav-blok"><a href="#" class="footer_nav-link">Туризм</a></li>
+                    </ul>
+                </div>
+                <div class="footer_news">
+                    <img src="./img/logo2.png" alt="Логотип компании" class="footer_news-img">
+                    <ul class="footer_news-nav">
+                        <li class="footer_news-nav_blok"><a href="#" class="footer_news-nav_link">Об агенстве</a></li>
+                        <li class="footer_news-nav_blok"><a href="#" class="footer_news-nav_link">Контакты</a></li>
+                        <li class="footer_news-nav_blok"><a href="#" class="footer_news-nav_link">Опубликовать новость</a></li>
+                    </ul>
+                </div>
+                <div class="footer-icon_block">
+                    <ul class="footer-icon">
+                        <li class="footer-icon_vk icon">
+                            <a href="#" aria-label="ВКонтакте" class="footer-icon_vk-link"></a>
+                        </li>
+                        <li class="footer-icon_facebook icon">
+                            <a href="#" aria-label="Фейсбук" class="footer-icon_vk-link"></a>
+                        </li >
+                        <li class="footer-icon_twitter icon">
+                            <a href="#" aria-label="Твиттер" class="footer-icon_vk-link"></a>
+                        </li>
+                        <li class="footer-icon_instagram icon">
+                            <a href="#" aria-label="Инстаграм" class="footer-icon_vk-link"></a>
+                        </li>
+                    </ul>
+                    <address class="footer-address">
+                        <ul class="footer-address_blok">
+                            <li class="footer-address_blok-tel">
+                                <a href="tel:+74999955555" class="footer-address_blok_link">+7 (499) 995-55-55</a>
+                            </li>
+                            <li class="footer-address_blok-mail">
+                                <a href="mailto:info@agency.ru" class="footer-address_blok_link">info@agency.ru</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+            <p class="footer_copy">
+                    &copy; Новостное агенство, 2017-2018 все права защищены
+                </p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="./js/js.js"></script>
+    </body>
+</html>

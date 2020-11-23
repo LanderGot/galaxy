@@ -1,0 +1,8 @@
+.section-advert{
+    width: 260px;
+    padding-left: 18px;
+}
+.section-advert a:nth-child(1){
+    display: inline-block;
+    margin-bottom: 15px;
+}

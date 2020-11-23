@@ -1,0 +1,313 @@
+.main{
+    padding: 21px 0 0 0;
+    padding-bottom: 58px;
+    background-image: url("../img/main.png");
+    background-repeat: repeat-x;
+}
+.main_flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section-left{
+    width: 250px;
+    height: auto;
+    background-color: #fff;
+    margin-right: 19px;
+    padding-bottom: 30px;
+}
+.section-left-heading{
+    margin: 0;
+    font-size: 20px;
+    padding: 23px 18px 27px 18px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.section-left-news{
+    padding: 24px 18px 5px 18px;
+    margin: 0;
+    list-style-type: none;
+}
+.section-left-news_list{
+    margin-bottom: 22px;
+    position: relative;
+}
+.section-left-headings{
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.section-left-headings_link{
+    color: #000;
+}
+.section-left-link{
+    font-size: 12px;
+    color: #91919f;
+    display: inline-block;
+    width: 100px;
+}
+.section-left-link::before{
+    content: "/";
+    padding-right: 3px;
+}
+.section-left-time{
+    font-size: 12px;
+    padding-left: 15px;
+    margin-right: 15px;
+    background-image: url("../img/icon-time.png");
+    background-repeat: no-repeat;
+}
+.section-left-comment{
+    font-size: 12px;
+    padding-left: 15px;
+    background-image: url("../img/icon-comments.png");
+    background-repeat: no-repeat;
+}
+.link-all_news{
+    padding-left: 40px;
+}
+.section-left-all_news{
+    padding: 16px 50px 16px 50px;
+    color: #448ccb;
+    border: 1px solid #448ccb;
+    border-radius: 50px;
+    height: 43px;
+    width: 175px;
+}
+.section-central{
+    width: 463px;
+}
+.section-central-blok{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: auto;
+}
+.section-central_flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section-central-list{
+    width: 222px;
+    margin-bottom: 19px;
+}
+/*.section-central-list:first-child{
+    width: auto;
+    min-height: 322px;
+    background-color: #000;
+}*/
+.section-central-article{
+    position: relative;
+    width: 462px;
+    height: 322px;
+}
+.section-central-list:nth-child(odd){
+    margin-right: 19px;
+}
+.section-central-img_blok{
+    position: absolute;
+}
+.section-central-link_blok{
+    position:inherit;
+    color: #fff;
+    display: inline-block;
+    padding: 105px 0 0 20px;;
+    font-size: 12px;
+}
+.section-central-headings_blok{
+    position:inherit;
+    margin: 0;
+    font-size: 30px;
+    padding: 20px 0 0 20px;
+}
+.section-central-headings_link_blok{
+    color: #fff;
+}
+.datetime_blok{
+    position:inherit;
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    padding: 20px 0 0 20px;
+}
+.section-central-date_blok{
+    margin-right: 10px;
+}
+.section-central-time_blok{
+    padding: 0 0 0 15px;
+    background-image: url("../img/time2.png");
+    background-repeat: no-repeat;
+}
+.section-central-headings{
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 0 0 15px 0;
+}
+.section-central-headings_link{
+    color:#000;
+}
+.section-central-link{
+    color:#a9a9b3;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.section-central-link::before{
+    content: "/";
+    padding-right: 3px;
+}
+.section-central-time{
+    background-image: url("../img/icon-time.png");
+    background-repeat: no-repeat;
+    padding-left: 16px;
+    margin-right: 10px;
+    font-size: 12px;
+    bottom: 0;
+}
+.section-central-comments{
+    background-image: url("../img/icon-comments.png");
+    background-repeat: no-repeat;
+    padding-left: 16px;
+    font-size: 12px;
+    bottom: 0;
+}
+
+.section-bottom{
+    clear: both;
+    padding-top: 20px;
+}
+.section-bottom-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section-bottom-heading{
+    background-color: #fff;
+    width: 412px;
+    margin: 0;
+    padding: 23px 47px 28px 20px;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 20px;
+}
+.section-bottom_left{
+    width: 588px;
+}
+.section-bottom_right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.section-bottom-blok{
+    margin: 0;
+    padding: 0;
+}
+.section-bottom-list{
+    list-style-type: none;
+    background-color: #fff;
+    padding:0 27px 13px 20px;
+}
+.section-bottom-headings{
+    margin: 0;
+    font-size: 15px;
+    padding: 21px 0 18px 0;
+    line-height: 1.3;
+}
+.section-bottom-headings_link{
+    color: #000;
+}
+.section-bottom-time{
+    padding-left: 15px;
+    margin-right: 19px;
+    font-size: 12px;
+    background-image: url("../img/icon-time.png");
+    background-repeat: no-repeat;
+}
+.section-bottom-comments{
+    font-size: 12px;
+    padding-left: 17px;
+    background-image: url("../img/icon-comments.png");
+    background-repeat: no-repeat;
+}
+.section-bottom-link{
+    color: #a9a9b3;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.section-bottom-article{
+    position: relative;
+    height: 393px;
+}
+.bottom-article-img_blok{
+    position: absolute;
+}
+.bottom-article-link_blok{
+    position: inherit;
+    display: inline-block;
+    color: #fff;
+    padding: 98px 0 0 20px;
+    font-size: 
+}
+
+.bottom-article-headings_link{
+    position: inherit;
+    color: #fff;
+    margin: 0;
+    font-size: 30px;
+    padding: 20px 0 0 20px;
+}
+.bottom-article-headings_link_blok{
+    color: #fff;
+}
+.bottom-article-datetime{
+    position: inherit;
+    display: inline-block;
+    padding:  10px 0 0 0;
+    color: #fff;
+    left: 20px;
+    font-size: 12px;
+}
+.bottom-article-date{
+    margin-right: 16px;
+}
+.bottom-article-time{
+    background-image: url("../img/time2.png");
+    background-repeat: no-repeat;
+    padding-left: 16px;
+}
+.bottom-article-text{
+    position: inherit;
+    display: inline-block;
+    margin: 0;
+    padding: 20px 0 0 20px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.bottom-article-text_link{
+    color: #fff;
+}
+.clearfix { 
+    clear: both; 
+}
+.course{
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+.course_exchange{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.eur{
+    color: #91919f;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.eur_rub{
+    color: #000;
+    font-weight: bold;
+}

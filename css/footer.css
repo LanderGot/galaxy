@@ -1,0 +1,121 @@
+.footer{
+    clear: both;
+    background: #00122f;
+    padding-top: 50px;
+    min-height: 311px;
+}
+.footer_container{
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+.footer_flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer_nav-blok, 
+.footer_news-nav_blok, 
+.icon, 
+.footer-address_blok-tel, 
+.footer-address_blok-mail{
+    list-style-type: none;
+}
+.footer_nav{
+    margin: 0;
+    padding: 0;
+    height: 160px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #fff;
+    font-size: 16px;
+}
+.footer_nav-link{
+    color: #fff;
+}
+.footer_nav-blok{
+    padding-bottom: 17px;
+}
+.footer_nav li:nth-child(5){
+    padding-bottom: 0;
+}
+.footer_news{
+    padding-left: 185px;
+}
+.footer_news-nav{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+}
+.footer_news-nav_blok{
+    padding-top: 20px;
+}
+.footer_news-nav_link{
+    color: #fff;
+}
+.footer-icon_block{
+    padding-left: 170px;
+}
+.footer-icon{
+    margin: 0;
+    padding: 0;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 18px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.footer-icon_vk{
+    background-image: url("../img/vk.png");
+}
+.footer-icon_facebook{
+    background-image: url("../img/f.png");
+}
+.footer-icon_twitter{
+    background-image: url("../img/t.png");
+}
+.footer-icon_instagram{
+    background-image: url("../img/i.png");
+    margin: 0;
+}
+.footer-icon_vk-link{
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.footer-address_blok{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    padding-top: 40px;
+}
+.footer-address_blok-tel{
+    background-image: url("../img/tel.png");
+    background-repeat: no-repeat;
+    padding: 0 0 30px 33px;
+}
+.footer-address_blok-mail{
+    background-image: url("../img/mail.png");
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    line-height: 0.8;
+}
+.footer-address_blok_link{
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+}
+.footer_copy{
+    clear: both;
+    margin: 0;
+    min-height: 50px;
+    line-height: 4;
+    text-align: center;
+    color: #8d9198;
+    font-size: 14px;
+    border-top: 1px solid #26354e;
+}
